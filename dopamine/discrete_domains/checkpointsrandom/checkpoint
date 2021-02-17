@@ -1,0 +1,5 @@
+model_checkpoint_path: "/home/neriait/tic_tac_toe_IQN/dopamine/discrete_domains/checkpointsrandom/tf_ckpt-69"
+all_model_checkpoint_paths: "/home/neriait/tic_tac_toe_IQN/dopamine/discrete_domains/checkpointsrandom/tf_ckpt-66"
+all_model_checkpoint_paths: "/home/neriait/tic_tac_toe_IQN/dopamine/discrete_domains/checkpointsrandom/tf_ckpt-67"
+all_model_checkpoint_paths: "/home/neriait/tic_tac_toe_IQN/dopamine/discrete_domains/checkpointsrandom/tf_ckpt-68"
+all_model_checkpoint_paths: "/home/neriait/tic_tac_toe_IQN/dopamine/discrete_domains/checkpointsrandom/tf_ckpt-69"

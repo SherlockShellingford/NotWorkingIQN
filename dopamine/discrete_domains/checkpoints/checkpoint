@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/miraizura/Music/tic_tac_toe IQN/dopamine/discrete_domains/checkpoints/tf_ckpt-0"
+all_model_checkpoint_paths: "/home/miraizura/Music/tic_tac_toe IQN/dopamine/discrete_domains/checkpoints/tf_ckpt-0"

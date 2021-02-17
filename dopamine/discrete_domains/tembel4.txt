@@ -1,0 +1,342 @@
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/utils.py:34: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/utils.py:34: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/utils.py:43: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:104: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/rainbow/rainbow_agent.py:88: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From train.py:58: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0217 22:25:28.967058 140483238926144 module_wrapper.py:139] From train.py:58: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From train.py:58: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0217 22:25:28.967291 140483238926144 module_wrapper.py:139] From train.py:58: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:32: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+W0217 22:25:28.975573 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:32: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:33: The name tf.train.inverse_time_decay is deprecated. Please use tf.compat.v1.train.inverse_time_decay instead.
+
+W0217 22:25:28.975807 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:33: The name tf.train.inverse_time_decay is deprecated. Please use tf.compat.v1.train.inverse_time_decay instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:34: The name tf.train.natural_exp_decay is deprecated. Please use tf.compat.v1.train.natural_exp_decay instead.
+
+W0217 22:25:28.975967 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:34: The name tf.train.natural_exp_decay is deprecated. Please use tf.compat.v1.train.natural_exp_decay instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:35: The name tf.train.polynomial_decay is deprecated. Please use tf.compat.v1.train.polynomial_decay instead.
+
+W0217 22:25:28.976121 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:35: The name tf.train.polynomial_decay is deprecated. Please use tf.compat.v1.train.polynomial_decay instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:39: The name tf.train.piecewise_constant is deprecated. Please use tf.compat.v1.train.piecewise_constant instead.
+
+W0217 22:25:28.976269 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:39: The name tf.train.piecewise_constant is deprecated. Please use tf.compat.v1.train.piecewise_constant instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:48: The name tf.losses.absolute_difference is deprecated. Please use tf.compat.v1.losses.absolute_difference instead.
+
+W0217 22:25:28.976443 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:48: The name tf.losses.absolute_difference is deprecated. Please use tf.compat.v1.losses.absolute_difference instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:50: The name tf.losses.hinge_loss is deprecated. Please use tf.compat.v1.losses.hinge_loss instead.
+
+W0217 22:25:28.976635 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:50: The name tf.losses.hinge_loss is deprecated. Please use tf.compat.v1.losses.hinge_loss instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:51: The name tf.losses.huber_loss is deprecated. Please use tf.compat.v1.losses.huber_loss instead.
+
+W0217 22:25:28.976776 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:51: The name tf.losses.huber_loss is deprecated. Please use tf.compat.v1.losses.huber_loss instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:52: The name tf.losses.log_loss is deprecated. Please use tf.compat.v1.losses.log_loss instead.
+
+W0217 22:25:28.976911 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:52: The name tf.losses.log_loss is deprecated. Please use tf.compat.v1.losses.log_loss instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:54: The name tf.losses.mean_pairwise_squared_error is deprecated. Please use tf.compat.v1.losses.mean_pairwise_squared_error instead.
+
+W0217 22:25:28.977046 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:54: The name tf.losses.mean_pairwise_squared_error is deprecated. Please use tf.compat.v1.losses.mean_pairwise_squared_error instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:55: The name tf.losses.mean_squared_error is deprecated. Please use tf.compat.v1.losses.mean_squared_error instead.
+
+W0217 22:25:28.977191 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:55: The name tf.losses.mean_squared_error is deprecated. Please use tf.compat.v1.losses.mean_squared_error instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:57: The name tf.losses.sigmoid_cross_entropy is deprecated. Please use tf.compat.v1.losses.sigmoid_cross_entropy instead.
+
+W0217 22:25:28.977332 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:57: The name tf.losses.sigmoid_cross_entropy is deprecated. Please use tf.compat.v1.losses.sigmoid_cross_entropy instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:59: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+W0217 22:25:28.977457 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:59: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:61: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+W0217 22:25:28.977588 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:61: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:67: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+W0217 22:25:28.977726 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:67: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:68: The name tf.train.AdadeltaOptimizer is deprecated. Please use tf.compat.v1.train.AdadeltaOptimizer instead.
+
+W0217 22:25:28.977908 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:68: The name tf.train.AdadeltaOptimizer is deprecated. Please use tf.compat.v1.train.AdadeltaOptimizer instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:69: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+W0217 22:25:28.978093 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:69: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:70: The name tf.train.AdagradDAOptimizer is deprecated. Please use tf.compat.v1.train.AdagradDAOptimizer instead.
+
+W0217 22:25:28.978267 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:70: The name tf.train.AdagradDAOptimizer is deprecated. Please use tf.compat.v1.train.AdagradDAOptimizer instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:71: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+W0217 22:25:28.978443 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:71: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:73: The name tf.train.FtrlOptimizer is deprecated. Please use tf.compat.v1.train.FtrlOptimizer instead.
+
+W0217 22:25:28.978675 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:73: The name tf.train.FtrlOptimizer is deprecated. Please use tf.compat.v1.train.FtrlOptimizer instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:75: The name tf.train.ProximalGradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.ProximalGradientDescentOptimizer instead.
+
+W0217 22:25:28.978847 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:75: The name tf.train.ProximalGradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.ProximalGradientDescentOptimizer instead.
+
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:77: The name tf.train.ProximalAdagradOptimizer is deprecated. Please use tf.compat.v1.train.ProximalAdagradOptimizer instead.
+
+W0217 22:25:28.979026 140483238926144 module_wrapper.py:139] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/gin/tf/external_configurables.py:77: The name tf.train.ProximalAdagradOptimizer is deprecated. Please use tf.compat.v1.train.ProximalAdagradOptimizer instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/logger.py:48: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+W0217 22:25:28.988286 140483238926144 module_wrapper.py:139] From ../../dopamine/discrete_domains/logger.py:48: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:206: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0217 22:25:29.221454 140483238926144 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:206: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:206: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0217 22:25:29.221667 140483238926144 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:206: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:206: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0217 22:25:29.221787 140483238926144 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:206: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+2021-02-17 22:25:29.222566: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2021-02-17 22:25:29.231506: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+2021-02-17 22:25:29.232309: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5604812d91b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-02-17 22:25:29.232335: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-02-17 22:25:29.233833: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-02-17 22:25:29.283170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:3b:00.0
+2021-02-17 22:25:29.286786: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-02-17 22:25:29.289611: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-02-17 22:25:29.292262: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-02-17 22:25:29.293521: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-02-17 22:25:29.296452: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-02-17 22:25:29.299400: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-02-17 22:25:29.305324: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-02-17 22:25:29.307690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-02-17 22:25:29.307729: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-02-17 22:25:29.452521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-02-17 22:25:29.452559: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-02-17 22:25:29.452571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-02-17 22:25:29.456670: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10319 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:3b:00.0, compute capability: 7.5)
+2021-02-17 22:25:29.459009: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560481f748c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-02-17 22:25:29.459030: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:152: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0217 22:25:29.470203 140483238926144 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:152: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Creating ImplicitQuantileAgent agent with the following parameters:
+I0217 22:25:29.470364 140483238926144 dqn_agent.py:153] Creating ImplicitQuantileAgent agent with the following parameters:
+INFO:tensorflow:	 gamma: 0.990000
+I0217 22:25:29.470824 140483238926144 dqn_agent.py:154] 	 gamma: 0.990000
+INFO:tensorflow:	 update_horizon: 1.000000
+I0217 22:25:29.470884 140483238926144 dqn_agent.py:155] 	 update_horizon: 1.000000
+INFO:tensorflow:	 min_replay_history: 50000
+I0217 22:25:29.470937 140483238926144 dqn_agent.py:156] 	 min_replay_history: 50000
+INFO:tensorflow:	 update_period: 4
+I0217 22:25:29.470985 140483238926144 dqn_agent.py:157] 	 update_period: 4
+INFO:tensorflow:	 target_update_period: 10000
+I0217 22:25:29.471032 140483238926144 dqn_agent.py:158] 	 target_update_period: 10000
+INFO:tensorflow:	 epsilon_train: 0.010000
+I0217 22:25:29.471089 140483238926144 dqn_agent.py:159] 	 epsilon_train: 0.010000
+INFO:tensorflow:	 epsilon_eval: 0.001000
+I0217 22:25:29.471137 140483238926144 dqn_agent.py:160] 	 epsilon_eval: 0.001000
+INFO:tensorflow:	 epsilon_decay_period: 1000000
+I0217 22:25:29.471184 140483238926144 dqn_agent.py:161] 	 epsilon_decay_period: 1000000
+INFO:tensorflow:	 tf_device: /gpu:0
+I0217 22:25:29.471229 140483238926144 dqn_agent.py:162] 	 tf_device: /gpu:0
+INFO:tensorflow:	 use_staging: True
+I0217 22:25:29.471274 140483238926144 dqn_agent.py:163] 	 use_staging: True
+INFO:tensorflow:	 optimizer: <tensorflow.python.training.adam.AdamOptimizer object at 0x7fc4521fc908>
+I0217 22:25:29.471319 140483238926144 dqn_agent.py:164] 	 optimizer: <tensorflow.python.training.adam.AdamOptimizer object at 0x7fc4521fc908>
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:201: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0217 22:25:29.471859 140483238926144 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:201: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+INFO:tensorflow:Creating a OutOfGraphPrioritizedReplayBuffer replay memory with the following parameters:
+I0217 22:25:29.473336 140483238926144 circular_replay_buffer.py:146] Creating a OutOfGraphPrioritizedReplayBuffer replay memory with the following parameters:
+INFO:tensorflow:	 observation_shape: (1, 9)
+I0217 22:25:29.473451 140483238926144 circular_replay_buffer.py:147] 	 observation_shape: (1, 9)
+INFO:tensorflow:	 observation_dtype: <class 'numpy.uint8'>
+I0217 22:25:29.473514 140483238926144 circular_replay_buffer.py:148] 	 observation_dtype: <class 'numpy.uint8'>
+INFO:tensorflow:	 stack_size: 1
+I0217 22:25:29.473567 140483238926144 circular_replay_buffer.py:149] 	 stack_size: 1
+INFO:tensorflow:	 replay_capacity: 1000000
+I0217 22:25:29.473617 140483238926144 circular_replay_buffer.py:150] 	 replay_capacity: 1000000
+INFO:tensorflow:	 batch_size: 32
+I0217 22:25:29.473665 140483238926144 circular_replay_buffer.py:151] 	 batch_size: 32
+INFO:tensorflow:	 update_horizon: 1
+I0217 22:25:29.473712 140483238926144 circular_replay_buffer.py:152] 	 update_horizon: 1
+INFO:tensorflow:	 gamma: 0.990000
+I0217 22:25:29.473758 140483238926144 circular_replay_buffer.py:153] 	 gamma: 0.990000
+WARNING:tensorflow:From ../../dopamine/replay_memory/circular_replay_buffer.py:790: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0217 22:25:29.475412 140483238926144 deprecation.py:323] From ../../dopamine/replay_memory/circular_replay_buffer.py:790: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From ../../dopamine/agents/implicit_quantile/implicit_quantile_agent.py:178: The name tf.make_template is deprecated. Please use tf.compat.v1.make_template instead.
+
+W0217 22:25:29.494268 140483238926144 module_wrapper.py:139] From ../../dopamine/agents/implicit_quantile/implicit_quantile_agent.py:178: The name tf.make_template is deprecated. Please use tf.compat.v1.make_template instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/atari_lib.py:165: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+W0217 22:25:29.526197 140483238926144 deprecation.py:323] From ../../dopamine/discrete_domains/atari_lib.py:165: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1057: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0217 22:25:29.528622 140483238926144 deprecation.py:323] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1057: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+W0217 22:25:29.566165 140483238926144 deprecation.py:323] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From ../../dopamine/discrete_domains/atari_lib.py:182: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0217 22:25:29.569077 140483238926144 module_wrapper.py:139] From ../../dopamine/discrete_domains/atari_lib.py:182: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/implicit_quantile/implicit_quantile_agent.py:248: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0217 22:25:29.771574 140483238926144 deprecation.py:323] From ../../dopamine/agents/implicit_quantile/implicit_quantile_agent.py:248: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0217 22:25:29.941603 140483238926144 deprecation.py:323] From /home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:356: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+W0217 22:25:30.135462 140483238926144 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:356: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:357: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+W0217 22:25:30.135685 140483238926144 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:357: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:216: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0217 22:25:30.143387 140483238926144 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:216: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:212: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+W0217 22:25:30.678750 140483238926144 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:212: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/checkpointer.py:70: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+W0217 22:25:30.801124 140483238926144 module_wrapper.py:139] From ../../dopamine/discrete_domains/checkpointer.py:70: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+INFO:tensorflow:Beginning training...
+I0217 22:25:30.823666 140483238926144 run_experiment.py:635] Beginning training...
+INFO:tensorflow:Starting iteration 0
+I0217 22:25:30.823845 140483238926144 run_experiment.py:556] Starting iteration 0
+2021-02-17 22:25:30.866145: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-02-17 22:25:31.089871: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+['../../', '/home/neriait/tic_tac_toe_IQN/dopamine/discrete_domains', '/home/neriait/.conda/envs/my_env/lib/python36.zip', '/home/neriait/.conda/envs/my_env/lib/python3.6', '/home/neriait/.conda/envs/my_env/lib/python3.6/lib-dynload', '/home/neriait/.conda/envs/my_env/lib/python3.6/site-packages', '/home/neriait/FQF']
+NUM_ATOMS: 51
+RUNTYPE: iqn-s0
+VMAX: 10.0
+>>>>>>>> 48
+-------kkkkk = 1.0
+========================== ./fout-visual/visual-Reversi8x8-v0_iqn-s0.pkl
+state_net: (1, 128) , num_quan: 32
+Valid moves tensor: Tensor("validmoves_ph:0", shape=(?,), dtype=int64, device=/device:GPU:0)
+Mask tensor: Tensor("GatherV2:0", shape=(?,), dtype=float32, device=/device:GPU:0)
+state_net: (32, 128) , num_quan: 32
+state_net: (32, 128) , num_quan: 32
+state_net: (32, 128) , num_quan: 32
+[-10.          -9.6         -9.2         -8.8         -8.4
+  -8.          -7.6         -7.2         -6.8         -6.3999996
+  -6.          -5.6         -5.2         -4.7999997   -4.4
+  -4.          -3.6         -3.1999998   -2.7999997   -2.4
+  -2.          -1.5999994   -1.1999998   -0.8000002   -0.39999962
+   0.           0.40000057   0.8000002    1.1999998    1.6000004
+   2.           2.4000006    2.8000002    3.1999998    3.6000004
+   4.           4.4000006    4.8          5.2          5.6000004
+   6.           6.3999996    6.800001     7.200001     7.6000004
+   8.           8.4          8.800001     9.200001     9.6
+  10.        ]
+>>>>>>>>> Reversi8x8-v0
+Start episode initaliaztion
+Finish episode initaliaztion
+Traceback (most recent call last):
+  File "train.py", line 66, in <module>
+    app.run(main)
+  File "/home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/neriait/.conda/envs/my_env/lib/python3.6/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 61, in main
+    runner.run_experiment()
+  File "../../dopamine/discrete_domains/run_experiment.py", line 642, in run_experiment
+    statistics = self._run_one_iteration(iteration)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 559, in _run_one_iteration
+    statistics)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 489, in _run_train_phase
+    10000, statistics, 'train')
+  File "../../dopamine/discrete_domains/run_experiment.py", line 452, in _run_one_phase
+    episode_length, episode_return = self._run_one_episode(run_mode_str)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 406, in _run_one_episode
+    action = self._agent.get_action_from_observation(observation2[0])
+  File "../../dopamine/agents/rainbow/rainbow_agent.py", line 445, in get_action_from_observation
+    a=self._select_action()
+  File "../../dopamine/agents/rainbow/rainbow_agent.py", line 430, in _select_action
+    q_argmax2=possible_moves[q_argmax]
+IndexError: list index out of range
